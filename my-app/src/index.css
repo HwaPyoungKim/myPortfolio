@@ -128,3 +128,28 @@
     @apply font-sans;
     }
 }
+
+@layer components {
+  .container {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+  }
+
+  .section-shell {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+    padding-block: 6rem;
+  }
+
+  .section-eyebrow {
+    @apply text-sm font-semibold uppercase text-muted-foreground;
+  }
+
+  .section-title {
+    @apply mt-3 max-w-4xl text-3xl font-semibold tracking-normal text-foreground md:text-5xl;
+  }
+
+  .section-copy {
+    @apply mt-5 max-w-3xl text-lg leading-8 text-muted-foreground;
+  }
+}

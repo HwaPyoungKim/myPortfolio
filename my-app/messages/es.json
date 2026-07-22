@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "cv": "CV",
+    "languageAria": "Cambiar idioma",
+    "themeAria": "Cambiar tema"
+  },
+  "hero": {
+    "availability": "Disponible para pasantías y roles Junior Backend",
+    "hello": "Hola, soy",
+    "name": "Hwa Pyoung Kim",
+    "subtitle": "Backend Software Engineer",
+    "description": "Me especializo en desarrollar APIs escalables con Java y Spring Boot. Disfruto diseñar software limpio, mantenible y preparado para crecer dentro de equipos técnicos exigentes.",
+    "projects": "Ver proyectos",
+    "cv": "Descargar CV",
+    "contact": "Contactarme",
+    "stats": [
+      { "value": "8+", "label": "Tecnologías aplicadas" },
+      { "value": "4", "label": "Proyectos técnicos" },
+      { "value": "100%", "label": "Enfoque backend" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Construyo backend con criterio, claridad y foco en producto.",
+    "intro": "Estoy formando una base sólida como Software Engineer con foco en backend. Me interesan las APIs bien diseñadas, la arquitectura simple, los datos consistentes y los despliegues reproducibles."
+  },
+  "skills": {
+    "eyebrow": "Habilidades",
+    "title": "Stack técnico con contexto, no solo iconos.",
+    "description": "Cada herramienta está orientada a construir sistemas backend entendibles, seguros y fáciles de evolucionar.",
+    "items": [
+      { "name": "Java", "description": "POO, colecciones, streams y diseño orientado a servicios.", "level": 84, "years": "2 años", "category": "Lenguajes" },
+      { "name": "Spring Boot", "description": "APIs, servicios, configuración y estructura por capas.", "level": 82, "years": "1+ año", "category": "Backend" },
+      { "name": "PostgreSQL", "description": "Modelado relacional, consultas, índices básicos y migraciones.", "level": 76, "years": "1 año", "category": "Bases de Datos" },
+      { "name": "Docker", "description": "Contenedores reproducibles para desarrollo y despliegue.", "level": 74, "years": "1 año", "category": "DevOps" }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "Proyectos diseñados para demostrar capacidad backend real.",
+    "description": "Cada proyecto explica el problema, las decisiones técnicas y lo aprendido.",
+    "featured": "Principal",
+    "demo": "Demo",
+    "items": [
+      {
+        "slug": "fashion-trend-scraper",
+        "featured": true,
+        "name": "Fashion Trend Scraper",
+        "description": "Sistema para detectar productos de moda en tendencia desde múltiples tiendas online.",
+        "technologies": ["Spring Boot", "PostgreSQL", "Docker", "Playwright"],
+        "demo": "https://fashion-trend-scraper.vercel.app"
+      },
+      {
+        "slug": "fitmeal-api",
+        "name": "FitMeal API",
+        "description": "API para planes de comida personalizados con autenticación y objetivos nutricionales.",
+        "technologies": ["Java", "Spring Security", "JWT", "PostgreSQL"],
+        "demo": "https://fitmeal-api.onrender.com"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de oportunidades backend.",
+    "description": "Estoy disponible para pasantías, roles Junior Backend y colaboraciones técnicas donde pueda aportar, aprender y crecer.",
+    "email": "Email",
+    "location": "Ubicación",
+    "locationValue": "Disponible remoto / híbrido"
+  },
+  "footer": {
+    "copyright": "© 2026 Adilaki. Todos los derechos reservados.",
+    "stack": "Construido con Next.js, TypeScript, TailwindCSS y Vercel."
+  }
+}

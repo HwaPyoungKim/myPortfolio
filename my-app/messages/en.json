@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "Resume",
+    "languageAria": "Switch language",
+    "themeAria": "Switch theme"
+  },
+  "hero": {
+    "availability": "Available for internships and Junior Backend roles",
+    "hello": "Hi, I am",
+    "name": "Hwa Pyoung Kim",
+    "subtitle": "Backend Software Engineer",
+    "description": "I specialize in building scalable APIs with Java and Spring Boot. I enjoy designing clean, maintainable software that is ready to grow inside demanding engineering teams.",
+    "projects": "View projects",
+    "cv": "Download resume",
+    "contact": "Contact me",
+    "stats": [
+      { "value": "8+", "label": "Technologies applied" },
+      { "value": "4", "label": "Technical projects" },
+      { "value": "100%", "label": "Backend focus" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "I build backend systems with judgment, clarity, and product focus.",
+    "intro": "I am building a strong foundation as a Software Engineer focused on backend development. I care about well-designed APIs, simple architecture, consistent data, and reproducible deployments."
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technical stack with context, not only icons.",
+    "description": "Each tool is oriented toward building backend systems that are understandable, secure, and easy to evolve.",
+    "items": [
+      { "name": "Java", "description": "OOP, collections, streams, and service-oriented design.", "level": 84, "years": "2 years", "category": "Languages" },
+      { "name": "Spring Boot", "description": "APIs, services, configuration, and layered application structure.", "level": 82, "years": "1+ year", "category": "Backend" },
+      { "name": "PostgreSQL", "description": "Relational modeling, queries, basic indexes, and migrations.", "level": 76, "years": "1 year", "category": "Databases" },
+      { "name": "Docker", "description": "Reproducible containers for development and deployment.", "level": 74, "years": "1 year", "category": "DevOps" }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Projects designed to demonstrate real backend ability.",
+    "description": "Each project explains the problem, technical decisions, and lessons learned.",
+    "featured": "Featured",
+    "demo": "Demo",
+    "items": [
+      {
+        "slug": "fashion-trend-scraper",
+        "featured": true,
+        "name": "Fashion Trend Scraper",
+        "description": "System for detecting trending fashion products from multiple online stores.",
+        "technologies": ["Spring Boot", "PostgreSQL", "Docker", "Playwright"],
+        "demo": "https://fashion-trend-scraper.vercel.app"
+      },
+      {
+        "slug": "fitmeal-api",
+        "name": "FitMeal API",
+        "description": "API for personalized meal plans with authentication and nutrition goals.",
+        "technologies": ["Java", "Spring Security", "JWT", "PostgreSQL"],
+        "demo": "https://fitmeal-api.onrender.com"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let us talk about backend opportunities.",
+    "description": "I am available for internships, Junior Backend roles, and technical collaborations where I can contribute, learn, and grow.",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Available remote / hybrid"
+  },
+  "footer": {
+    "copyright": "© 2026 Adilaki. All rights reserved.",
+    "stack": "Built with Next.js, TypeScript, TailwindCSS, and Vercel."
+  }
+}
